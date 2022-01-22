@@ -18,9 +18,6 @@ class Frame(wx.Frame):
         # 框架的size通过图片的尺寸来自适应，位置用center函数取屏幕中央
         size = img3.GetSize()
         super().__init__(None, style=wx.SIMPLE_BORDER | wx.STAY_ON_TOP | wx.TRANSPARENT_WINDOW, size=size)
-        self.SetTransparent(5
-                            )
-
         self.Center(dir=wx.BOTH)
         # 显示图片，parent为self，图片自适应大小，填满Frame
         show3 = wx.StaticBitmap(self, bitmap=img3, size=size)
