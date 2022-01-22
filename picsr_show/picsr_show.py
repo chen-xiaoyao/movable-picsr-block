@@ -1,7 +1,7 @@
 """被enter键激活的显示部分程序"""
 import wx
 
-from src.util import picture_operate
+import picture_operate
 
 
 class Frame(wx.Frame):
